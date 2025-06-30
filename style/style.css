@@ -6,4 +6,11 @@
 .card-header-icon {
     font-size: 1.5rem;
 }
+
 /*Awareness */
+
+.main-content-container {
+    padding-left: 0;
+    padding-right: 0;
+    overflow-x: hidden;
+}
