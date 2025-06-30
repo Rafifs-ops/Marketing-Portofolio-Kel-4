@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketing Portofolio kel.4</title>
+    <link rel="shortcut icon" href="img/logo-produk.png" type="image/x-icon">
+
+    <!--Hover-->
+    <link rel="stylesheet" href="style/hover.css">
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <!--AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/font.css">
+
+    <!--GSAP-->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+</head>
+
+<body style="background-color: #b22222;">
+
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg sticky-top p-2 shadow-sm" style="background-color: #b22222;">
+        <div class="container-fluid">
+            <a class="navbar-brand hover-nav-img" href="index.html"><img src="img/logo-mighty-punch.png" alt="Bootstrap" width="100" height="auto"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link active hover-nav" aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link hover-nav" href="awareness.html">Awareness</a>
+                    <a class="nav-link hover-nav" href="consideration.html">Consideration</a>
+                    <a class="nav-link hover-nav" href="purchase.html">Purchase</a>
+                    <a class="nav-link hover-nav" href="retention.html">Retention</a>
+                    <a class="nav-link hover-nav" href="advocation.html">Advocation</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--navbar-->
+
+    <!--jumbotron-->
+    <div class="container px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+                <!-- Placeholder untuk Gambar Utama -->
+                <img src="img/logo-produk.png" class="d-block mx-lg-auto img-fluid" alt="Placeholder Gambar Proyek" width="700" height="500" loading="lazy" 
+                onerror="this.onerror=null;this.src='https://placehold.co/700x500/EFEFEF/B22222?text=Gagal+Muat';">
+            </div>
+            <div class="col-lg-6">
+                <h1 class="display-4 fw-bold lh-1 mb-4">Marketing Portofolio Kelompok 4 Bisnis Digital - B</h1>
+                <p class="lead">Selamat datang di portofolio kami. Di sini kami menunjukkan dedikasi, kreativitas, dan strategi marketing yang telah membawa kesuksesan bagi kami. Jelajahi proyek-proyek marketing kami dan temukan bagaimana kami dapat membantu Mighty Punch bertumbuh.</p>
+            </div>
+        </div>
+    </div>
+    <!--jumbotron-->
+
+    <!-- Bagian Tim Kami -->
+    <main class="container px-4 py-5" id="team">
+        <h2 class="text-center display-5 fw-bold mb-5 pb-2">Anggota Kelompok 4</h2>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 text-center">
+            
+            <!-- Anggota Tim 1 -->
+            <div class="col">
+                <div class="card h-100 text-white shadow-lg" style="background-color: #c24641;">
+                    <img src="img/zora.jpg" class="card-img-top mx-auto mt-4 rounded-circle" alt="Foto Anggota 1" style="width: 150px; height: 150px;"
+                    onerror="this.onerror=null;this.src='https://placehold.co/200x200/FFFFFF/343A40?text=Error';">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Dzikra Ksatria Zora</h5>
+                        <p class="card-text">NIM : 1710624062</p>
+                        <p class="card-text">Marketing Manager</p>
+                        <a href="manajer.html" class="btn btn-outline-light btn-lg px-4">Lihat Proyek</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Anggota Tim 2 -->
+            <div class="col">
+                <div class="card h-100 text-white shadow-lg" style="background-color: #c24641;">
+                    <img src="img/tafta.jpg" class="card-img-top mx-auto mt-4 rounded-circle" alt="Foto Anggota 2" style="width: 150px; height: 150px;"
+                    onerror="this.onerror=null;this.src='https://placehold.co/200x200/FFFFFF/343A40?text=Error';">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Tafta Aurinnisa</h5>
+                        <p class="card-text">NIM : 1710624070</p>
+                        <p class="card-text">Awareness | Top of Funnel</p>
+                        <a href="awareness.html" class="btn btn-outline-light btn-lg px-4">Lihat Proyek</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Anggota Tim 3 -->
+            <div class="col">
+                <div class="card h-100 text-white shadow-lg" style="background-color: #c24641;">
+                    <img src="img/rafif.jpg" class="card-img-top mx-auto mt-4 rounded-circle" alt="Foto Anggota 3" style="width: 150px; height: 150px;"
+                    onerror="this.onerror=null;this.src='https://placehold.co/200x200/FFFFFF/343A40?text=Error';">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Rafiffere Narendra Wahyujati</h5>
+                        <p class="card-text">NIM : 1710624054</p>
+                        <p class="card-text">Consideration | Middle of Funnel</p>
+                        <a href="consideration.html" class="btn btn-outline-light btn-lg px-4">Lihat Proyek</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Anggota Tim 4 -->
+            <div class="col">
+                <div class="card h-100 text-white shadow-lg" style="background-color: #c24641;">
+                    <img src="img/key.jpg" class="card-img-top mx-auto mt-4 rounded-circle" alt="Foto Anggota 4" style="width: 150px; height: 150px;"
+                    onerror="this.onerror=null;this.src='https://placehold.co/200x200/FFFFFF/343A40?text=Error';">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Ratu Keysa Eidelwise</h5>
+                        <p class="card-text">NIM : 1710624156</p>
+                        <p class="card-text">Purchase | Bottom of Funnel</p>
+                        <a href="purchase.html" class="btn btn-outline-light btn-lg px-4">Lihat Proyek</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Anggota Tim 5 -->
+            <div class="col">
+                <div class="card h-100 text-white shadow-lg" style="background-color: #c24641;">
+                    <img src="img/sya.jpg" class="card-img-top mx-auto mt-4 rounded-circle" alt="Foto Anggota 5" style="width: 150px; height: 150px;"
+                    onerror="this.onerror=null;this.src='https://placehold.co/200x200/FFFFFF/343A40?text=Error';">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Halimatus Syadiah</h5>
+                        <p class="card-text">NIM : 1710624065</p>
+                        <p class="card-text">Retention | Sold</p>
+                        <a href="retention.html" class="btn btn-outline-light btn-lg px-4">Lihat Proyek</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Anggota Tim 6 -->
+            <div class="col">
+                <div class="card h-100 text-white shadow-lg" style="background-color: #c24641;">
+                    <img src="img/fotorafi2.jpg" class="card-img-top mx-auto mt-4 rounded-circle" alt="Foto Anggota 6" style="width: 150px; height: 150px;"
+                    onerror="this.onerror=null;this.src='https://placehold.co/200x200/FFFFFF/343A40?text=Error';">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Rafi Febrian Suprapto</h5>
+                        <p class="card-text">NIM : 1710624039</p>
+                        <p class="card-text">Advocation | Sold</p>
+                        <a href="advocation.html" class="btn btn-outline-light btn-lg px-4">Lihat Proyek</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Bagian Footer Baru yang Lebih Modern -->
+    <footer class="bg-dark text-white pt-5 pb-4 mt-5">
+        <div class="container text-center text-md-start">
+            <div class="row text-center text-md-start">
+
+                <!-- Kolom Tentang Kami -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 fw-bold text-light">Kelompok 4 Bisnis Digital - B</h5>
+                    <p>
+                        Kelompok marketing digital yang berfokus pada hasil, menggabungkan kreativitas dengan data untuk mendorong pertumbuhan Migthy Punch.
+                    </p>
+                </div>
+
+                <!-- Kolom Link Cepat -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 fw-bold text-light">Navigasi</h5>
+                    <p><a href="index.html" class="text-white-50 text-decoration-none footer-link">Home</a></p>
+                    <p><a href="awareness.html" class="text-white-50 text-decoration-none footer-link">Awareness</a></p>
+                    <p><a href="consideration.html" class="text-white-50 text-decoration-none footer-link">Consideration</a></p>
+                    <p><a href="purchase.html" class="text-white-50 text-decoration-none footer-link">Purchase</a></p>
+                    <p><a href="retention.html" class="text-white-50 text-decoration-none footer-link">Retention</a></p>
+                    <p><a href="advocation.html" class="text-white-50 text-decoration-none footer-link">Advocation</a></p>
+                </div>
+
+                <!-- Kolom Kontak -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 fw-bold text-light">Kontak</h5>
+                    <p><i class="bi bi-geo-alt-fill me-2"></i> Jakarta, Indonesia</p>
+                    <p><i class="bi bi-envelope-fill me-2"></i> mightypunch.stuff@gmail.com</p>
+                    <a href="https://wa.me/6285710028551" class="text-white text-decoration-none footer-link"><p><i class="bi bi-telephone-fill me-2"></i> +62 857-1002-8551 (Zora)</p></a>
+                </div>
+
+            </div>
+
+            <hr class="my-4">
+
+            <!-- Bagian Copyright & Social Icons -->
+            <div class="row align-items-center">
+                <!-- Copyright -->
+                <div class="col-md-7 col-lg-8">
+                    <p class="text-center text-md-start mb-3 mb-md-0">
+                        &copy; 2025 Kelompok 4 Bisnis Digital - B
+                    </p>
+                </div>
+                <!-- Social Media Icons -->
+                <div class="col-md-5 col-lg-4">
+                    <div class="text-center text-md-end">
+                        <ul class="list-unstyled list-inline mb-0">
+                            <li class="list-inline-item">
+                                <a href="https://www.instagram.com/mightypunch.id?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="btn-floating btn-sm text-white fs-4 footer-link" target="_blank"><i class="bi bi-instagram"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.tiktok.com/@mightypunch.id?_t=ZS-8xddp0Y4src&_r=1" class="btn-floating btn-sm text-white fs-4 footer-link" target="_blank"><i class="bi bi-tiktok"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Bagian Tim Kami -->
+
+
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

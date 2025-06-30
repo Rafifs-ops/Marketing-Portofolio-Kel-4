@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketing Portofolio kel.4</title>
+    <link rel="shortcut icon" href="img/logo-produk.png" type="image/x-icon">
+    <link rel="stylesheet" href="style/style.css">
+
+    <!--Hover-->
+    <link rel="stylesheet" href="style/hover.css">
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <!--AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/font.css">
+
+    <!--GSAP-->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <style>
+        .hero-section {
+            background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('img/zora.jpg') no-repeat center center;
+            background-size: cover;
+            background-attachment: fixed;
+            /* Parallax effect */
+            min-height: 90vh;
+        }
+    </style>
+</head>
+
+<body style="background-color: #b22222;">
+
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg sticky-top p-2 shadow-sm" style="background-color: #b22222;">
+        <div class="container-fluid">
+            <a class="navbar-brand hover-nav-img" href="index.html"><img src="img/logo-mighty-punch.png" alt="Bootstrap" width="100" height="auto"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link hover-nav" href="index.html">Home</a>
+                    <a class="nav-link hover-nav" href="awareness.html">Awareness</a>
+                    <a class="nav-link hover-nav" href="consideration.html">Consideration</a>
+                    <a class="nav-link hover-nav" href="purchase.html">Purchase</a>
+                    <a class="nav-link active hover-nav" aria-current="page" href="retention.html">Retention</a>
+                    <a class="nav-link hover-nav" href="advocation.html">Advocation</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--navbar-->
+
+    <!-- HERO SECTION -->
+    <div class="hero-section d-flex align-items-center justify-content-center text-center p-4">
+        <div>
+            <h1 class="display-1 fw-bolder text-white hero-title text-uppercase">What did I do?</h1>
+            <p class="lead fs-3 fw-normal text-white-50">Dzikra Ksatria Zora - 1710624062 | Project Manager</p>
+        </div>
+    </div>
+    <!-- HERO SECTION -->
+
+    <!-- MAIN CONTENT SECTION -->
+    <div class="container my-5 py-5">
+        <div class="row g-5 justify-content-center">
+
+            <!-- CARD 1: TIKTOK PROMOTION -->
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                <div class="card card-interactive bg-dark text-white shadow-lg w-100 rounded-4">
+                    <div class="card-header text-center bg-transparent border-0 pt-4">
+                        <h3 class="fw-bold my-2"><i class="bi bi-tiktok card-header-icon text-danger me-2"></i>Punch Point</h3>
+                    </div>
+                    <a href="#" class="text-decoration-none">
+                        <img src="img/retention-img/punch-points-retention.png" class="card-img-top p-3 rounded-5" alt="TikTok Promotion Screenshot">
+                    </a>
+                    <div class="card-body text-center d-flex flex-column">
+                        <p class="card-text fs-5 text-start">Sales Promotion = menawarkan insentif langsung seperti poin, diskon, dan hadiah yang mendorong pembelian berulang.</p>
+                        <a href="#" class="btn btn-danger mt-4 fw-bold">Lihat di Website Resmi <i class="bi bi-arrow-right-short"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARD 2: AWARENESS (WHAT'S INSIDE) -->
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                <div class="card card-interactive bg-dark text-white shadow-lg w-100 rounded-4">
+                    <div class="card-header text-center bg-transparent border-0 pt-4">
+                        <h3 class="fw-bold my-2"><i class="bi bi-paperclip card-header-icon text-info me-2"></i>Punch Tips</h3>
+                    </div>
+                    <a href="#" class="text-decoration-none">
+                       <img src="img/retention-img/punch-tips-retention.png" class="card-img-top p-3 rounded-5" alt="Product Ingredient Comparison">
+                    </a>
+                    <div class="card-body text-center d-flex flex-column">
+                        <p class="card-text fs-5 text-start">Direct Marketing = dikirim langsung ke pelanggan melalui newsletter, dan juga Content Marketing, karena berisi konten edukatif bernilai tambah. Aktivitas ini menjaga engagement dan memperkuat ikatan emosional dengan brand.</p>
+                        <a href="#" class="btn btn-info mt-4 fw-bold">Lihat di Website Resmi <i class="bi bi-arrow-right-short"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARD 3: LEAD MAGNET -->
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                <div class="card card-interactive bg-dark text-white shadow-lg w-100 rounded-4">
+                    <div class="card-header text-center bg-transparent border-0 pt-4">
+                        <h3 class="fw-bold my-2"><i class="bi bi-person card-header-icon text-warning me-2"></i>Pengalaman Personal</h3>
+                    </div>
+                     <a href="#" class="text-decoration-none">
+                        <img src="img/retention-img/pengalaman-personal-retention.png" class="card-img-top p-3 rounded-5" alt="Lead Magnet Form Screenshot">
+                    </a>
+                    <div class="card-body text-center d-flex flex-column">
+                        <p class="card-text fs-5 text-start">Direct Marketing = menyasar langsung perilaku dan preferensi pelanggan. Dikirim lewat notifikasi digital, aktivitas ini juga tergolong Mobile Marketing, karena memanfaatkan perangkat seluler untuk menyampaikan pesan personal</p>
+                         <a href="#" class="btn btn-warning mt-4 fw-bold text-dark">Lihat di Website Resmi <i class="bi bi-envelope-paper-heart"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- MAIN CONTENT SECTION -->
+
+    <!-- MAIN CONTENT SECTION -->
+    <div class="container my-5 py-5">
+        <div class="row g-5 justify-content-center">
+
+            <!-- CARD 4: TIKTOK PROMOTION -->
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                <div class="card card-interactive bg-dark text-white shadow-lg w-100 rounded-4">
+                    <div class="card-header text-center bg-transparent border-0 pt-4">
+                        <h3 class="fw-bold my-2"><i class="bi bi-calendar card-header-icon text-danger me-2"></i>30 Days Challenge</h3>
+                    </div>
+                    <a href="#" class="text-decoration-none">
+                        <img src="img/retention-img/30dayschallange-retention.png" class="card-img-top p-3 rounded-5" alt="TikTok Promotion Screenshot">
+                    </a>
+                    <div class="card-body text-center d-flex flex-column">
+                        <p class="card-text fs-5 text-start">Social Media Marketing = melibatkan partisipasi aktif konsumen di platform sosial, seperti mencatat konsumsi harian dan berbagi di media sosial, yang membangun keterlibatan serta eksposur brand secara organik.</p>
+                        <a href="#" class="btn btn-danger mt-4 fw-bold">Lihat di Website Resmi <i class="bi bi-arrow-right-short"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARD 5: AWARENESS (WHAT'S INSIDE) -->
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                <div class="card card-interactive bg-dark text-white shadow-lg w-100 rounded-4">
+                    <div class="card-header text-center bg-transparent border-0 pt-4">
+                        <h3 class="fw-bold my-2"><i class="bi bi-megaphone card-header-icon text-info me-2"></i>Layanan Proaktif</h3>
+                    </div>
+                    <a href="#" class="text-decoration-none">
+                       <img src="img/retention-img/layanan-proaktif-retention.png" class="card-img-top p-3 rounded-5" alt="Product Ingredient Comparison">
+                    </a>
+                    <div class="card-body text-center d-flex flex-column">
+                        <p class="card-text fs-5 text-start">Direct Marketing = komunikasi satu-satu yang responsif. Melibatkan interaksi langsung untuk memahami kebutuhan pelanggan dan memberi solusi cepat, sehingga membangun kepercayaan dan loyalitas.</p>
+                        <a href="#" class="btn btn-info mt-4 fw-bold">Lihat di Website Resmi <i class="bi bi-arrow-right-short"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- MAIN CONTENT SECTION -->
+
+    <!-- Bagian Footer Baru yang Lebih Modern -->
+    <footer class="bg-dark text-white pt-5 pb-4 mt-5">
+        <div class="container text-center text-md-start">
+            <div class="row text-center text-md-start">
+
+                <!-- Kolom Tentang Kami -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 fw-bold text-light">Kelompok 4 Bisnis Digital - B</h5>
+                    <p>
+                        Kelompok marketing digital yang berfokus pada hasil, menggabungkan kreativitas dengan data untuk mendorong pertumbuhan Migthy Punch.
+                    </p>
+                </div>
+
+                <!-- Kolom Link Cepat -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 fw-bold text-light">Navigasi</h5>
+                    <p><a href="index.html" class="text-white-50 text-decoration-none footer-link">Home</a></p>
+                    <p><a href="awareness.html" class="text-white-50 text-decoration-none footer-link">Awareness</a></p>
+                    <p><a href="consideration.html" class="text-white-50 text-decoration-none footer-link">Consideration</a></p>
+                    <p><a href="purchase.html" class="text-white-50 text-decoration-none footer-link">Purchase</a></p>
+                    <p><a href="retention.html" class="text-white-50 text-decoration-none footer-link">Retention</a></p>
+                    <p><a href="advocation.html" class="text-white-50 text-decoration-none footer-link">Advocation</a></p>
+                </div>
+
+                <!-- Kolom Kontak -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 fw-bold text-light">Kontak</h5>
+                    <p><i class="bi bi-geo-alt-fill me-2"></i> Jakarta, Indonesia</p>
+                    <p><i class="bi bi-envelope-fill me-2"></i> mightypunch.stuff@gmail.com</p>
+                    <a href="https://wa.me/6285710028551" class="text-white text-decoration-none footer-link"><p><i class="bi bi-telephone-fill me-2"></i> +62 857-1002-8551 (Zora)</p></a>
+                </div>
+
+            </div>
+
+            <hr class="my-4">
+
+            <!-- Bagian Copyright & Social Icons -->
+            <div class="row align-items-center">
+                <!-- Copyright -->
+                <div class="col-md-7 col-lg-8">
+                    <p class="text-center text-md-start mb-3 mb-md-0">
+                        &copy; 2025 Kelompok 4 Bisnis Digital - B
+                    </p>
+                </div>
+                <!-- Social Media Icons -->
+                <div class="col-md-5 col-lg-4">
+                    <div class="text-center text-md-end">
+                        <ul class="list-unstyled list-inline mb-0">
+                            <li class="list-inline-item">
+                                <a href="https://www.instagram.com/mightypunch.id?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="btn-floating btn-sm text-white fs-4 footer-link" target="_blank"><i class="bi bi-instagram"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.tiktok.com/@mightypunch.id?_t=ZS-8xddp0Y4src&_r=1" class="btn-floating btn-sm text-white fs-4 footer-link" target="_blank"><i class="bi bi-tiktok"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Bagian Tim Kami -->
+
+
+
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
